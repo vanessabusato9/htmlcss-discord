@@ -1,0 +1,165 @@
+/*GENERICS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.boxed {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.dashed {
+    border: dashed 2px black;
+}
+
+/*GENERICS END*/
+
+/*HEADER*/
+header {
+    background-color: lightblue;
+    padding: 8px 0px;
+    padding-bottom: 4px;
+    border: transparent;
+}
+
+#header-container {
+    background-color: rgb(245, 163, 12);
+}
+
+
+.nav-logo {
+    width: 20%;
+}
+
+.nav-link {
+    width: 60%;
+    text-align: center;
+}
+
+.nav-login {
+    width: 20%;
+    text-align: right;
+}
+
+.nav-logo,
+.nav-link,
+.nav-login {
+    padding: 5px;
+}
+/*HEADER END*/
+
+/*MAIN CONTENT*/
+.bg-blue {
+    background-color: rgb(9, 9, 105);
+    min-height: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 8px;
+}
+
+.bg-fuchsia {
+    background-color: fuchsia;
+    min-height: 300px;
+    width: 55%;
+}
+
+.small-column {
+    background-color: rgb(250, 192, 202);
+    min-height: 350px;
+    width: 40%;
+}
+
+.big-column {
+    background-color: rgb(77, 74, 233);
+    min-height: 350px;
+    width: 60%;
+}
+
+.bg-white {
+    min-height: 350px;
+    padding: 20px;
+}
+
+.bg-gray-small {
+    min-height: 350px;
+    background-color: rgb(202, 199, 199);
+    padding: 20px 0px;
+}
+
+.bg-gray-big {
+    min-height: 550px;
+    background-color: rgb(202, 199, 199);
+    padding: 20px 0px;
+}
+
+.bg-green {
+    background-color: green;
+    min-height: 550px;
+}
+/*MAIN CONTENT END*/
+
+/*FOOTER*/
+.bg-black-big {
+    background-color: black;
+    min-height: 350px;
+    padding-top: 4px;
+    padding-bottom: 18px;
+    border-bottom: 3px solid gray;
+}
+
+.bg-black-small {
+    background-color: black;
+    min-height: 50px;
+    border-bottom: 3px solid gray;
+    padding-top: 10px;
+}
+
+.bg-salmon {
+    min-height: 350px;
+    background-color: rgb(253, 134, 120);
+    width: 30%;
+}
+
+.bg-aquamarine {
+    min-height: 350px;
+    background-color: rgb(43, 138, 109);
+    width: 70%;
+}
+
+.column {
+    width: 25%;
+    border-right: 2px dashed white;
+}
+
+#footer-container {
+    min-height: 40px;
+    background-color: aqua;
+    border: 1px solid rgb(27, 184, 184);
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.button {
+    border: 2px dashed black;
+    background-color: pink;
+    padding: 3px;
+}
+
+.nav-logo-footer {
+    background-color: pink;
+    padding: 3px;
+    border: 2px dashed black;
+}
+/*FOOTER END*/
