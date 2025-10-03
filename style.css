@@ -33,9 +33,12 @@ header {
 }
 
 #header-container {
-    background-color: rgb(245, 163, 12);
+    align-items: center;
 }
 
+#header-logo {
+    width: 40%;
+}
 
 .nav-logo {
     width: 20%;
@@ -43,7 +46,7 @@ header {
 
 .nav-link {
     width: 60%;
-    text-align: center;
+    min-height: 100%;
 }
 
 .nav-login {
@@ -55,6 +58,21 @@ header {
 .nav-link,
 .nav-login {
     padding: 5px;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.no-bullets {
+    list-style: none;
 }
 
 .header-bg {
@@ -98,17 +116,24 @@ header {
     color: white;
 }
 
+.btn-small {
+    background-color: white;
+    border-radius: 45%;
+    text-decoration: none;
+    font-size: small;
+    padding: 0.8em 1.1em;
+}
+
 /*HEADER END*/
 
 /*MAIN CONTENT*/
 .small-column {
-    background-color: rgb(250, 192, 202);
     min-height: 350px;
     width: 40%;
+    align-items: flex-start;
 }
 
 .big-column {
-    background-color: rgb(77, 74, 233);
     min-height: 350px;
     width: 60%;
 }
@@ -123,18 +148,13 @@ img {
 }
 
 h2 {
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 0.3em;
 }
 
 .text-left {
     text-align: left;
-    padding: 5em;
+    padding: 2em;
+    padding-right: 7em;
 }
 
 .bg-gray-small {
