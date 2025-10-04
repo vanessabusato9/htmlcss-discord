@@ -298,4 +298,13 @@ div h3:first-child {
     font-weight: bolder;
 }
 
+.flag {
+    width: 10%;
+    margin-top: 8px;
+}
+
+div span {
+    color: white;
+}
+
 /*FOOTER END*/
