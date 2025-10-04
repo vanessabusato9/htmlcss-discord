@@ -242,13 +242,12 @@ h2 {
     padding-top: 10px;
 }
 
-.bg-salmon {
+.footer-column-left {
     min-height: 350px;
-    background-color: rgb(253, 134, 120);
     width: 30%;
 }
 
-.bg-aquamarine {
+.footer-column-right {
     min-height: 350px;
     width: 70%;
 }
@@ -292,6 +291,11 @@ h2 {
 .column ul li:first-child a{
   color: var(--violet);
   font-weight: bold;
+}
+
+div h3:first-child {
+    color: var(--violet);
+    font-weight: bolder;
 }
 
 /*FOOTER END*/
