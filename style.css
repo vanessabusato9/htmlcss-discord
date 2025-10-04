@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --violet: rgb(156,171,224); 
+}
+
 body {
     font-family: sans-serif;
 }
@@ -212,7 +216,7 @@ h2 {
 }
 
 .btn-violet {
-    background-color: rgb(156,171,224); 
+    background-color: var(--violet); 
     margin-top: 2em;
     color: white;
     text-decoration: none;
@@ -246,35 +250,48 @@ h2 {
 
 .bg-aquamarine {
     min-height: 350px;
-    background-color: rgb(43, 138, 109);
     width: 70%;
 }
 
 .column {
     width: 25%;
-    border-right: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
 }
 
 #footer-container {
-    min-height: 40px;
-    background-color: aqua;
-    border: 1px solid rgb(27, 184, 184);
+    min-height: 50px;
     vertical-align: middle;
     align-items: center;
     justify-content: space-between;
     font-size: small;
+    padding-bottom: 1em;
 }
 
 .button {
-    border: 2px dashed black;
-    background-color: pink;
-    padding: 3px;
+    padding: 6px 9px;
+    background-color: var(--violet); 
+    border-radius: 20px;
+    border: 1px solid var(--violet);
 }
 
 .nav-logo-footer {
-    background-color: pink;
     padding: 3px;
-    border: 2px dashed black;
+}
+
+.column-footer {
+    color: white;
+    text-decoration: none;
+}
+
+.column ul li {
+    margin-bottom: 8px;
+}
+
+.column ul li:first-child a{
+  color: var(--violet);
+  font-weight: bold;
 }
 
 /*FOOTER END*/
