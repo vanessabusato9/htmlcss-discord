@@ -22,6 +22,18 @@ body {
     border: dashed 2px black;
 }
 
+.wave {
+    min-height: 100px;
+    background-image: url(./img/wave.svg);
+    filter: opacity(0.04);
+    background-size: 100%;
+}
+
+.upsite-down {
+  transform: rotateX(0.5turn);
+}
+
+
 /*GENERICS END*/
 
 /*HEADER*/
@@ -124,6 +136,7 @@ header {
     padding: 0.8em 1.1em;
 }
 
+
 /*HEADER END*/
 
 /*MAIN CONTENT*/
@@ -143,8 +156,22 @@ header {
     padding: 20px;
 }
 
+.bg-stars {
+    background-image: url(./img/stars.svg);
+    width: 25em;
+    padding-top: 1.8em;
+    margin: 2em auto;
+    margin-bottom: 5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 img {
     width: 100%;
+}
+
+.last-img {
+    width: 60%;
 }
 
 h2 {
@@ -157,21 +184,40 @@ h2 {
     padding-right: 7em;
 }
 
+.text-left-padding-right {
+    text-align: left;
+    padding: 2em;
+    padding-left: 7em;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .bg-gray-small {
     min-height: 350px;
-    background-color: rgb(202, 199, 199);
+    background-color: rgb(246, 246, 246);
     padding: 20px 0px;
 }
 
 .bg-gray-big {
     min-height: 550px;
-    background-color: rgb(202, 199, 199);
+    background-color: rgb(246, 246, 246);
     padding: 20px 0px;
 }
 
-.bg-green {
-    background-color: green;
-    min-height: 550px;
+.p-padding {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.btn-violet {
+    background-color: rgb(156,171,224); 
+    margin-top: 2em;
+    color: white;
+    text-decoration: none;
+    border-radius: 45%;
+    padding: 0.8em 1.1em;
 }
 
 /*MAIN CONTENT END*/
