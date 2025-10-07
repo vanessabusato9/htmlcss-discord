@@ -121,8 +121,9 @@ header {
 .header-button-white {
     background-color: white;
     padding: 1em;
-    border-radius: 2em;
     margin-top: 1em;
+    border-radius: 2em;
+    margin-top:1em;
 }
 
 .header-button-black {
@@ -145,7 +146,7 @@ header {
 
 /*MAIN CONTENT*/
 .small-column {
-    min-height: 350px;
+    height: 350px;
     width: 40%;
     align-items: flex-start;
 }
@@ -217,11 +218,12 @@ h2 {
 
 .btn-violet {
     background-color: var(--violet); 
-    margin-top: 2em;
     color: white;
     text-decoration: none;
     border-radius: 45%;
     padding: 0.8em 1.1em;
+    border-radius: 2em;
+    margin-top:1em;
 }
 
 /*MAIN CONTENT END*/
@@ -229,8 +231,7 @@ h2 {
 /*FOOTER*/
 .bg-black-big {
     background-color: black;
-    min-height: 350px;
-    padding-top: 4px;
+    padding-top: 18px;
     padding-bottom: 18px;
     border-bottom: 3px solid gray;
 }
@@ -243,12 +244,10 @@ h2 {
 }
 
 .footer-column-left {
-    min-height: 350px;
     width: 30%;
 }
 
 .footer-column-right {
-    min-height: 350px;
     width: 70%;
 }
 
@@ -256,7 +255,7 @@ h2 {
     width: 25%;
     display: flex;
     justify-content: center;
-    margin-top: 3em;
+    margin-top: 3px;
 }
 
 #footer-container {
@@ -296,6 +295,7 @@ h2 {
 div h3:first-child {
     color: var(--violet);
     font-weight: bolder;
+    padding-bottom: 18px;
 }
 
 .flag {
@@ -306,5 +306,6 @@ div h3:first-child {
 div span {
     color: white;
 }
+
 
 /*FOOTER END*/
